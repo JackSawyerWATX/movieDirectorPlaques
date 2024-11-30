@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Movie Directors
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main>
+        <h1 class="title">Famous Movie Directors</h1>
+        <div class="team-stats">
+            <p>Number of Directors: <span id="director-count"></span></p>
+        </div>
+        <label class="options-label" for="directors">Filter Directors:</label>
+        <select name="directors" id="directors">
+            <option value="all">All Directors</option>
+            <option value="oscar">Won an Oscar</option>
+            <option value="no-oscar">Have Not Won an Oscar</option>
+        </select>
+        <div class="cards" id="director-cards"></div>
+    </main>
+    <footer>&copy; Jonathan Fausset</footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
